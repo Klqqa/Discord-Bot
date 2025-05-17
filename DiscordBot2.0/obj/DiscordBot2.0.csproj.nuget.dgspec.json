@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\eltea\\source\\repos\\DiscordBot2.0\\DiscordBot2.0\\DiscordBot2.0.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\eltea\\source\\repos\\DiscordBot2.0\\DiscordBot2.0\\DiscordBot2.0.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eltea\\source\\repos\\DiscordBot2.0\\DiscordBot2.0\\DiscordBot2.0.csproj",
+        "projectName": "DiscordBot2.0",
+        "projectPath": "C:\\Users\\eltea\\source\\repos\\DiscordBot2.0\\DiscordBot2.0\\DiscordBot2.0.csproj",
+        "packagesPath": "C:\\Users\\eltea\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eltea\\source\\repos\\DiscordBot2.0\\DiscordBot2.0\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\eltea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "MCQuery": {
+              "target": "Package",
+              "version": "[2022.7.13.192844, )"
+            },
+            "NAudio": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "OpenAI.ChatGPT": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "QueryMaster": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[112.1.0, )"
+            },
+            "YoutubeExplode": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
