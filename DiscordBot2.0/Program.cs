@@ -42,7 +42,7 @@ namespace DiscordBot2._0
                     Console.WriteLine($"Error loading config: {ex.Message}");
                     return;
                 }
-                await _client.LoginAsync(TokenType.Bot, _config.Token);
+                await _client.LoginAsync(TokenType.Bot, "");
                 await _client.StartAsync();
                 await Task.Delay(-1);
             }
